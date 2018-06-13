@@ -1,0 +1,209 @@
+/*Page Styles*/
+
+body {
+    color: #777777;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    color: #777777;
+    font-size: 17px;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0px 10px 0px 0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+}
+
+li {
+    border-right: 1px solid lightgrey;
+}
+
+li.last-item {
+    border-right: none;
+}
+
+.active>.nav-link {
+    color: #777777!important;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #777777!important;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+#namebox {
+    padding: 15px 30px 15px;
+}
+
+.row {
+    margin: 0;
+}
+
+.just {
+    justify-content: center;
+}
+
+#mainsection {
+    background: url('../images/new_year_background.png');
+    position: absolute;
+    width: 100%;
+}
+
+#contentbox {
+    background-color: white;
+    border: 1px solid #e2e2e2;
+    margin-top: 50px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+hr {
+    border: 1.5px solid #e2e2e2;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*index styles*/
+
+#photo {
+    float: left;
+    margin-right: 20px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/*Footer Styles*/
+
+#footertext {
+    color: #e2e2e2;
+    font-size: 9px;
+    padding-bottom: 3px;
+}
+
+#footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*form styles*/
+
+input {
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0.5px solid #e2e2e2;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 17px;
+    border: none;
+    padding: 8px 30px 12px;
+    width: auto;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: 198px;
+    max-width: 100%;
+    border: 0.5px solid #e2e2e2;
+}
+
+form {
+    margin-top: -1px;
+}
+
+.form {
+    line-height: 1;
+}
+
+/*Portfolio Styles*/
+
+.innerbanner {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.portfolioitem {
+    margin: 10px 0px 10px;
+    position: relative;
+}
+
+.portfolio {
+    margin-top: 30px;
+}
+
+/*responsive styling*/
+
+@media only screen and (max-width: 600px) {
+    .innerbanner {
+        font-size: 17px;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #photo {
+        margin-bottom: 15px;
+    }
+}
